@@ -1,36 +1,121 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: bvrn # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: BVRN Website
+    url: https://www.bvrn.de
+    icon: https://bvrn.github.io/resources/logos/bvrn_logo.svg
+  - name: Nextcloud
+    url: https://cloud.bvrn.de
+  - name: SSO
+    url: https://accounts.bvrn.de
+    icon: https://www.keycloak.org/resources/images/icon.svg
+  - name: Monitoring
+    url: http://grafana.bvrn.jc-otto.de
+  - name: Onlyoffice
+    url: onlyoffice.bvrn.de
+    icon: https://raw.githubusercontent.com/ONLYOFFICE/api.onlyoffice.com/master/web/Content/img/logo-small.svg
+  - name: Collabora
+    url: collabora.bvrn.de
+    icon: https://raw.githubusercontent.com/CollaboraOnline/collabora-mattermost/master/assets/icons/icon.svg
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #cname: demo.upptime.js.org
+  baseUrl: /upptime
+  logoUrl: https://bvrn.github.io/resources/logos/bvrn_logo.svg
+  name: Status BVRN
+  introTitle: "**Status-Seite** der Dienste des Blasmusikverband Rhein-Neckar e.V."
+  introMessage: Hier findest du den aktuellen Status unserer Online-Dienste und -Plattformen. Alle Informationen werden **in Echtzeit** aus unserem [GitHub-Repository](https://github.com/$OWNER/$REPO) bereitgestellt. Bei Fragen oder Problemen wende dich bitte direkt an unser Team.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Aktive Vorfälle
+  #allSystemsOperational: Alle Systeme sind betriebsbereit
+  incidentReport: Bericht über Vorfall $NUMBER →
+  activeIncidentSummary: Eröffnet am $DATE mit $POSTS Beiträgen
+  incidentTitle: Details zu Vorfall $NUMBER
+  incidentDetails: Vorfallsdetails
+  incidentFixed: Behoben
+  incidentOngoing: Laufend
+  incidentOpenedAt: Eröffnet am
+  incidentClosedAt: Geschlossen am
+  incidentViewOnGitHub: Auf GitHub ansehen und abonnieren
+  incidentCommentSummary: Gepostet am $DATE von $AUTHOR
+  incidentBack: ← Zurück zu allen Vorfällen
+  pastIncidents: Vergangene Vorfälle
+  pastIncidentsResolved: Gelöst in $MINUTES Minuten mit $POSTS Beiträgen
+  liveStatus: Live-Status
+  overallUptime: "Gesamtverfügbarkeit: $UPTIME"
+  overallUptimeTitle: Gesamtverfügbarkeit
+  averageResponseTime: "Durchschnittliche Antwortzeit: $TIME ms"
+  averageResponseTimeTitle: Durchschnittliche Antwortzeit
+  sevelDayResponseTime: Antwortzeit der letzten 7 Tage
+  responseTimeMs: Antwortzeit (ms)
+  #up: Betriebsbereit
+  #down: Ausfall
+  #degraded: Eingeschränkt
+  ms: ms
+  loading: Lädt
+  navGitHub: GitHub
+  footer: Diese Seite ist [open source]($REPO) und wird von [Upptime](https://upptime.js.org) betrieben
+  rateLimitExceededTitle: Abfrage-Limit überschritten
+  rateLimitExceededIntro: Sie haben die Anzahl der Anfragen überschritten, die Sie in einer Stunde durchführen können. Sie müssen warten, bevor Sie wieder auf diese Website zugreifen können. Alternativ können Sie ein GitHub Personal Access Token hinzufügen, um die Website weiterhin zu nutzen.
+  rateLimitExceededWhatDoesErrorMean: Was bedeutet dieser Fehler?
+  rateLimitExceededErrorMeaning: Diese Website verwendet die GitHub-API, um in Echtzeit auf Daten zum Status unserer Websites zuzugreifen. Standardmäßig erlaubt GitHub jeder IP-Adresse 60 Anfragen pro Stunde, die Sie aufgebraucht haben.
+  rateLimitExceededErrorHowCanFix: Wie kann ich das beheben?
+  rateLimitExceededErrorFix: Sie können eine weitere Stunde warten, bis das Limit Ihrer IP-Adresse wiederhergestellt ist. Alternativ können Sie Ihr GitHub Personal Access Token hinzufügen, das Ihnen zusätzliche 5.000 Anfragen pro Stunde ermöglicht.
+  rateLimitExceededGeneratePAT: Erfahren Sie, wie Sie ein Personal Access Token erstellen
+  rateLimitExceededHasSet: Sie haben ein Personal Access Token gesetzt.
+  rateLimitExceededRemoveToken: Token entfernen
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: Kopieren und fügen Sie Ihr Token ein
+  rateLimitExceededSaveToken: Token speichern
+  errorTitle: Ein Fehler ist aufgetreten
+  errorIntro: Beim Versuch, die neuesten Statusdetails zu erhalten, ist ein Fehler aufgetreten.
+  errorText: Sie können es in wenigen Augenblicken erneut versuchen.
+  errorHome: Zur Startseite
+  pastScheduledMaintenance: Vergangene Geplante Wartung
+  scheduledMaintenance: Geplante Wartung
+  scheduledMaintenanceSummaryStarted: Begonnen am $DATE für $DURATION Minuten
+  scheduledMaintenanceSummaryStarts: Beginnt am $DATE für $DURATION Minuten
+  startedAt: Begonnen am
+  startsAt: Beginnt am
+  duration: Dauer
+  durationMin: $DURATION Minuten
+  incidentCompleted: Abgeschlossen
+  incidentScheduled: Geplant
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1y
+  durationAll: all
+  locale: de-DE
+  url: URL
+  status: Status
+  history: Verlauf
+  responseTime: Antwortzeit
+  uptime: Verfügbarkeit
+  up: Betriebsbereit
+  degraded: Eingeschränkt
+  down: Ausfall
+  responseTimeGraphAlt: Antwortzeitdiagramm
+  responseTimeDay: Antwortzeit der letzten 24 Stunden
+  responseTimeWeek: Antwortzeit der letzten 7 Tage
+  responseTimeMonth: Antwortzeit der letzten 30 Tage
+  responseTimeYear: Antwortzeit des letzten Jahres
+  uptimeDay: Verfügbarkeit der letzten 24 Stunden
+  uptimeWeek: Verfügbarkeit der letzten 7 Tage
+  uptimeMonth: Verfügbarkeit der letzten 30 Tage
+  uptimeYear: Verfügbarkeit des letzten Jahres
+  liveStatusHtmlComment: <!--Live-Status-->
+  allSystemsOperational: Alle Systeme sind betriebsbereit
+  degradedPerformance: Eingeschränkte Leistung
+  completeOutage: Totalausfall
+  partialOutage: Teilausfall
