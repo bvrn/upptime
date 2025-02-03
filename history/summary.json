@@ -22,19 +22,19 @@
     "url": "https://cloud.bvrn.de",
     "icon": "https://icons.duckduckgo.com/ip3/cloud.bvrn.de.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "86.88%",
-    "uptimeDay": "86.88%",
-    "uptimeWeek": "86.88%",
-    "uptimeMonth": "86.88%",
-    "uptimeYear": "86.88%",
+    "status": "down",
+    "uptime": "87.82%",
+    "uptimeDay": "87.82%",
+    "uptimeWeek": "87.82%",
+    "uptimeMonth": "87.82%",
+    "uptimeYear": "87.82%",
     "time": 1783,
     "timeDay": 1783,
     "timeWeek": 1783,
     "timeMonth": 1783,
     "timeYear": 1783,
     "dailyMinutesDown": {
-      "2025-02-03": 45
+      "2025-02-03": 47
     }
   },
   {
@@ -42,18 +42,20 @@
     "url": "https://accounts.bvrn.de",
     "icon": "https://www.keycloak.org/resources/images/icon.svg",
     "slug": "sso",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.80%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.80%",
     "time": 496,
     "timeDay": 496,
     "timeWeek": 496,
     "timeMonth": 496,
     "timeYear": 496,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-03": 1
+    }
   },
   {
     "name": "Monitoring",
