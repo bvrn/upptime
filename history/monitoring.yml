@@ -1,7 +1,7 @@
 url: http://grafana.bvrn.jc-otto.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-02-08T23:33:14.212Z
+status: up
+code: 200
+responseTime: 1154
+lastUpdated: 2025-02-08T23:52:23.774Z
 startTime: 2025-02-02T21:08:14.461Z
 generator: Upptime <https://github.com/upptime/upptime>
