@@ -12,7 +12,7 @@ sites:
     url: https://accounts.bvrn.de
     icon: https://www.keycloak.org/resources/images/icon.svg
   - name: Monitoring
-    url: http://grafana.bvrn.jc-otto.de
+    url: https://grafana.bvrn.de
   - name: Onlyoffice
     url: onlyoffice.bvrn.de
     icon: https://raw.githubusercontent.com/ONLYOFFICE/api.onlyoffice.com/master/web/Content/img/logo-small.svg
