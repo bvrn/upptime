@@ -23,8 +23,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
-  baseUrl: /upptime
+  cname: status.bvrn.de
+  #baseUrl: /upptime
   logoUrl: https://bvrn.github.io/resources/logos/bvrn_logo.svg
   name: Status BVRN
   introTitle: "**Status-Seite** der Dienste des Blasmusikverband Rhein-Neckar e.V."
