@@ -1,7 +1,7 @@
-url: https://grafana.bvrn.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-02-21T22:00:07.527Z
+url: https://grafana.bvrn.de/api/health
+status: up
+code: 200
+responseTime: 541
+lastUpdated: 2026-02-22T00:08:40.848Z
 startTime: 2025-02-02T21:08:14.461Z
 generator: Upptime <https://github.com/upptime/upptime>
