@@ -8,11 +8,18 @@ sites:
     icon: https://bvrn.github.io/resources/logos/bvrn_logo.svg
   - name: Nextcloud
     url: https://cloud.bvrn.de
-  - name: SSO
+  - name: SSO (Legacy)
     url: https://accounts.bvrn.de
     icon: https://www.keycloak.org/resources/images/icon.svg
+  - name: Authentik (Live)
+    url: https://id.bvrn.de/-/health/live/
+    icon: https://goauthentik.io/img/icon.png
+  - name: Authentik (Ready / DB)
+    url: https://id.bvrn.de/-/health/ready/
+    icon: https://goauthentik.io/img/icon.png
   - name: Monitoring
-    url: https://grafana.bvrn.de
+    url: https://grafana.bvrn.de/api/health
+    icon: https://raw.githubusercontent.com/grafana/grafana/refs/heads/main/public/img/grafana_icon.svg
   - name: Onlyoffice
     url: onlyoffice.bvrn.de
     icon: https://raw.githubusercontent.com/ONLYOFFICE/api.onlyoffice.com/master/web/Content/img/logo-small.svg
