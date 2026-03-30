@@ -1,7 +1,7 @@
 url: https://grafana.bvrn.de/api/health
 status: up
 code: 200
-responseTime: 368
-lastUpdated: 2026-03-29T23:26:22.816Z
+responseTime: 547
+lastUpdated: 2026-03-30T23:29:29.096Z
 startTime: 2025-02-02T21:08:14.461Z
 generator: Upptime <https://github.com/upptime/upptime>
