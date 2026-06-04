@@ -4,16 +4,16 @@
     "url": "https://www.bvrn.de",
     "icon": "https://bvrn.github.io/resources/logos/bvrn_logo.svg",
     "slug": "bvrn-website",
-    "status": "up",
+    "status": "down",
     "uptime": "99.37%",
-    "uptimeDay": "77.42%",
+    "uptimeDay": "84.51%",
     "uptimeWeek": "91.37%",
     "uptimeMonth": "96.05%",
     "uptimeYear": "99.43%",
     "time": 3009,
-    "timeDay": 1128,
-    "timeWeek": 1670,
-    "timeMonth": 1935,
+    "timeDay": 1347,
+    "timeWeek": 1697,
+    "timeMonth": 1913,
     "timeYear": 2833,
     "dailyMinutesDown": {
       "2025-06-06": 94,
@@ -52,7 +52,8 @@
       "2026-05-27": 209,
       "2026-06-01": 545,
       "2026-06-02": 102,
-      "2026-06-03": 223
+      "2026-06-03": 223,
+      "2026-06-04": 0
     }
   },
   {
@@ -68,9 +69,9 @@
     "uptimeYear": "100.00%",
     "time": 1047,
     "timeDay": 1583,
-    "timeWeek": 1200,
-    "timeMonth": 1178,
-    "timeYear": 1006,
+    "timeWeek": 1171,
+    "timeMonth": 1189,
+    "timeYear": 1007,
     "dailyMinutesDown": {}
   },
   {
@@ -86,8 +87,8 @@
     "uptimeYear": "100.00%",
     "time": 522,
     "timeDay": 525,
-    "timeWeek": 460,
-    "timeMonth": 495,
+    "timeWeek": 447,
+    "timeMonth": 496,
     "timeYear": 522,
     "dailyMinutesDown": {}
   },
@@ -104,8 +105,8 @@
     "uptimeYear": "100.00%",
     "time": 515,
     "timeDay": 613,
-    "timeWeek": 523,
-    "timeMonth": 512,
+    "timeWeek": 504,
+    "timeMonth": 511,
     "timeYear": 515,
     "dailyMinutesDown": {}
   },
@@ -122,8 +123,8 @@
     "uptimeYear": "100.00%",
     "time": 242,
     "timeDay": 552,
-    "timeWeek": 421,
-    "timeMonth": 402,
+    "timeWeek": 405,
+    "timeMonth": 410,
     "timeYear": 242,
     "dailyMinutesDown": {}
   },
@@ -133,14 +134,14 @@
     "icon": "https://raw.githubusercontent.com/grafana/grafana/refs/heads/main/public/img/grafana_icon.svg",
     "slug": "monitoring",
     "status": "up",
-    "uptime": "92.48%",
+    "uptime": "92.49%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "63.06%",
+    "uptimeMonth": "63.66%",
     "uptimeYear": "91.13%",
     "time": 919,
     "timeDay": 653,
-    "timeWeek": 470,
+    "timeWeek": 445,
     "timeMonth": 488,
     "timeYear": 833,
     "dailyMinutesDown": {
@@ -196,8 +197,8 @@
     "uptimeYear": "100.00%",
     "time": 976,
     "timeDay": 1412,
-    "timeWeek": 1052,
-    "timeMonth": 1085,
+    "timeWeek": 1020,
+    "timeMonth": 1095,
     "timeYear": 919,
     "dailyMinutesDown": {}
   },
@@ -214,8 +215,8 @@
     "uptimeYear": "100.00%",
     "time": 804,
     "timeDay": 852,
-    "timeWeek": 694,
-    "timeMonth": 719,
+    "timeWeek": 676,
+    "timeMonth": 720,
     "timeYear": 758,
     "dailyMinutesDown": {}
   }
