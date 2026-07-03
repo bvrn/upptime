@@ -4,17 +4,17 @@
     "url": "https://www.bvrn.de",
     "icon": "https://bvrn.github.io/resources/logos/bvrn_logo.svg",
     "slug": "bvrn-website",
-    "status": "down",
-    "uptime": "99.28%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "96.91%",
-    "uptimeMonth": "97.47%",
-    "uptimeYear": "99.29%",
-    "time": 2874,
-    "timeDay": 0,
-    "timeWeek": 2710,
-    "timeMonth": 1515,
-    "timeYear": 2625,
+    "status": "up",
+    "uptime": "99.27%",
+    "uptimeDay": "95.16%",
+    "uptimeWeek": "96.22%",
+    "uptimeMonth": "97.31%",
+    "uptimeYear": "99.28%",
+    "time": 2865,
+    "timeDay": 670,
+    "timeWeek": 2462,
+    "timeMonth": 1492,
+    "timeYear": 2620,
     "dailyMinutesDown": {
       "2025-07-26": 48,
       "2025-08-03": 130,
@@ -55,7 +55,7 @@
       "2026-06-20": 148,
       "2026-06-28": 308,
       "2026-06-29": 3,
-      "2026-07-03": 0
+      "2026-07-03": 70
     }
   },
   {
@@ -71,8 +71,8 @@
     "uptimeYear": "100.00%",
     "time": 1005,
     "timeDay": 1190,
-    "timeWeek": 1238,
-    "timeMonth": 1228,
+    "timeWeek": 1212,
+    "timeMonth": 1216,
     "timeYear": 1028,
     "dailyMinutesDown": {}
   },
@@ -89,7 +89,7 @@
     "uptimeYear": "100.00%",
     "time": 521,
     "timeDay": 464,
-    "timeWeek": 525,
+    "timeWeek": 506,
     "timeMonth": 518,
     "timeYear": 521,
     "dailyMinutesDown": {}
@@ -107,8 +107,8 @@
     "uptimeYear": "100.00%",
     "time": 524,
     "timeDay": 505,
-    "timeWeek": 565,
-    "timeMonth": 556,
+    "timeWeek": 557,
+    "timeMonth": 554,
     "timeYear": 524,
     "dailyMinutesDown": {}
   },
@@ -125,8 +125,8 @@
     "uptimeYear": "100.00%",
     "time": 289,
     "timeDay": 425,
-    "timeWeek": 456,
-    "timeMonth": 452,
+    "timeWeek": 439,
+    "timeMonth": 449,
     "timeYear": 289,
     "dailyMinutesDown": {}
   },
@@ -143,8 +143,8 @@
     "uptimeYear": "91.13%",
     "time": 821,
     "timeDay": 473,
-    "timeWeek": 508,
-    "timeMonth": 494,
+    "timeWeek": 502,
+    "timeMonth": 488,
     "timeYear": 795,
     "dailyMinutesDown": {
       "2026-02-22": 9,
@@ -199,8 +199,8 @@
     "uptimeYear": "100.00%",
     "time": 922,
     "timeDay": 1143,
-    "timeWeek": 1141,
-    "timeMonth": 1155,
+    "timeWeek": 1120,
+    "timeMonth": 1146,
     "timeYear": 939,
     "dailyMinutesDown": {}
   },
@@ -217,8 +217,8 @@
     "uptimeYear": "100.00%",
     "time": 756,
     "timeDay": 643,
-    "timeWeek": 745,
-    "timeMonth": 763,
+    "timeWeek": 734,
+    "timeMonth": 760,
     "timeYear": 757,
     "dailyMinutesDown": {}
   }
