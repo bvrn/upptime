@@ -4,17 +4,17 @@
     "url": "https://www.bvrn.de",
     "icon": "https://bvrn.github.io/resources/logos/bvrn_logo.svg",
     "slug": "bvrn-website",
-    "status": "down",
-    "uptime": "99.26%",
-    "uptimeDay": "93.49%",
-    "uptimeWeek": "97.90%",
-    "uptimeMonth": "98.89%",
-    "uptimeYear": "99.22%",
-    "time": 2807,
-    "timeDay": 4088,
-    "timeWeek": 2904,
-    "timeMonth": 2845,
-    "timeYear": 2578,
+    "status": "up",
+    "uptime": "99.25%",
+    "uptimeDay": "89.91%",
+    "uptimeWeek": "97.39%",
+    "uptimeMonth": "98.81%",
+    "uptimeYear": "99.21%",
+    "time": 2806,
+    "timeDay": 3716,
+    "timeWeek": 2910,
+    "timeMonth": 2848,
+    "timeYear": 2565,
     "dailyMinutesDown": {
       "2025-08-03": 130,
       "2025-08-30": 17,
@@ -59,7 +59,7 @@
       "2026-07-18": 112,
       "2026-07-26": 56,
       "2026-07-27": 62,
-      "2026-07-28": 94
+      "2026-07-28": 146
     }
   },
   {
@@ -149,7 +149,7 @@
     "timeDay": 505,
     "timeWeek": 486,
     "timeMonth": 462,
-    "timeYear": 760,
+    "timeYear": 759,
     "dailyMinutesDown": {
       "2026-02-22": 9,
       "2026-02-21": 120,
