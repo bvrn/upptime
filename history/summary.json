@@ -6,10 +6,10 @@
     "slug": "bvrn-website",
     "status": "down",
     "uptime": "99.25%",
-    "uptimeDay": "89.90%",
-    "uptimeWeek": "97.39%",
-    "uptimeMonth": "98.86%",
-    "uptimeYear": "99.21%",
+    "uptimeDay": "86.53%",
+    "uptimeWeek": "96.91%",
+    "uptimeMonth": "98.75%",
+    "uptimeYear": "99.20%",
     "time": 2801,
     "timeDay": 3509,
     "timeWeek": 3162,
@@ -60,7 +60,7 @@
       "2026-07-26": 56,
       "2026-07-27": 62,
       "2026-07-28": 146,
-      "2026-07-29": 0
+      "2026-07-29": 49
     }
   },
   {
