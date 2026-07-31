@@ -140,9 +140,9 @@
     "url": "https://grafana.bvrn.de/api/health",
     "icon": "https://raw.githubusercontent.com/grafana/grafana/refs/heads/main/public/img/grafana_icon.svg",
     "slug": "monitoring",
-    "status": "up",
-    "uptime": "93.28%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "93.29%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "91.13%",
@@ -188,7 +188,8 @@
       "2026-04-15": 1440,
       "2026-04-14": 1440,
       "2026-04-13": 1440,
-      "2026-04-12": 277
+      "2026-04-12": 277,
+      "2026-07-31": 0
     }
   },
   {
