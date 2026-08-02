@@ -4,13 +4,13 @@
     "url": "https://www.bvrn.de",
     "icon": "https://bvrn.github.io/resources/logos/bvrn_logo.svg",
     "slug": "bvrn-website",
-    "status": "up",
+    "status": "down",
     "uptime": "99.23%",
-    "uptimeDay": "94.93%",
-    "uptimeWeek": "94.76%",
+    "uptimeDay": "94.89%",
+    "uptimeWeek": "94.75%",
     "uptimeMonth": "98.25%",
     "uptimeYear": "99.16%",
-    "time": 2804,
+    "time": 2798,
     "timeDay": 3583,
     "timeWeek": 3344,
     "timeMonth": 2923,
@@ -61,7 +61,7 @@
       "2026-07-27": 62,
       "2026-07-28": 146,
       "2026-07-29": 192,
-      "2026-08-02": 73
+      "2026-08-02": 74
     }
   },
   {
@@ -88,18 +88,18 @@
     "icon": "https://www.keycloak.org/resources/images/icon.svg",
     "slug": "sso-legacy",
     "status": "down",
-    "uptime": "99.70%",
-    "uptimeDay": "52.22%",
-    "uptimeWeek": "93.17%",
-    "uptimeMonth": "98.43%",
-    "uptimeYear": "99.70%",
+    "uptime": "99.58%",
+    "uptimeDay": "32.53%",
+    "uptimeWeek": "90.36%",
+    "uptimeMonth": "97.78%",
+    "uptimeYear": "99.58%",
     "time": 518,
     "timeDay": 493,
     "timeWeek": 571,
     "timeMonth": 504,
     "timeYear": 518,
     "dailyMinutesDown": {
-      "2026-08-02": 688
+      "2026-08-02": 971
     }
   },
   {
@@ -144,11 +144,11 @@
     "icon": "https://raw.githubusercontent.com/grafana/grafana/refs/heads/main/public/img/grafana_icon.svg",
     "slug": "monitoring",
     "status": "down",
-    "uptime": "93.02%",
+    "uptime": "92.99%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.95%",
-    "uptimeMonth": "94.93%",
-    "uptimeYear": "90.71%",
+    "uptimeWeek": "75.14%",
+    "uptimeMonth": "94.28%",
+    "uptimeYear": "90.66%",
     "time": 796,
     "timeDay": 0,
     "timeWeek": 531,
@@ -192,7 +192,7 @@
       "2026-04-14": 1440,
       "2026-04-13": 1440,
       "2026-04-12": 277,
-      "2026-08-02": 697,
+      "2026-08-02": 980,
       "2026-08-01": 1440,
       "2026-07-31": 86
     }
